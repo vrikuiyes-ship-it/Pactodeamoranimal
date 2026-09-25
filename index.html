@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pacto de Amor Animal - Una mano amiga, una vida protegida. Proyecto de FUNSERCOL Colombia.">
+  <title>Pacto de Amor Animal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main class="page">
+
+  <header class="hero">
+    <div class="brand-row">
+      <!-- Reemplaza logo-pacto.svg por el logo oficial de Pacto cuando lo tengas -->
+      <div class="logo-box official-logo">
+        <img src="logo-pacto.png" alt="Logo oficial de Pacto de Amor Animal">
+      </div>
+    </div>
+
+    <h1>Pacto de Amor Animal</h1>
+    <p class="slogan">Una mano amiga, una vida protegida</p>
+    <p class="matrix">Un proyecto de <strong>FUNSERCOL Colombia</strong></p>
+
+    <p class="intro">
+      Somos una entidad de apoyo que une esfuerzos para ayudar a animales
+      y a las personas que dedican su vida a protegerlos. Promovemos apoyo
+      transparente, responsable y dirigido a cada causa.
+    </p>
+  </header>
+
+  <section class="purpose">
+    <h2>🐾 Nuestro propósito</h2>
+    <ul>
+      <li>🐶 Apoyar la alimentación de animales</li>
+      <li>💊 Apoyar medicamentos y tratamientos</li>
+      <li>🏠 Respaldar rescates y adopciones</li>
+      <li>🧺 Conseguir insumos y elementos necesarios</li>
+      <li>🤝 Apoyar a quienes cuidan y protegen animales</li>
+    </ul>
+  </section>
+
+  <section class="transparency">
+    <h2>🔎 Transparencia</h2>
+    <p>
+      Cada ayuda busca llegar a la causa para la que fue solicitada.
+      Coordinamos los aportes a través de Pacto de Amor Animal y procuramos
+      mantener evidencia de la recepción y entrega de las ayudas.
+    </p>
+  </section>
+
+  <section class="support">
+    <h2>🎁 Elige cómo ayudar</h2>
+    <p class="sub">Ayúdanos a ayudar ❤️</p>
+
+    <div class="cards">
+      <a class="card" href="#donar">
+        <span>🐾</span>
+        <strong>Quiero donar</strong>
+        <small>Alimento, insumos o aporte económico</small>
+      </a>
+
+      <a class="card" href="#voluntario">
+        <span>🤝</span>
+        <strong>Ser voluntario</strong>
+        <small>Tu tiempo también puede ayudar</small>
+      </a>
+
+      <a class="card" href="#causas">
+        <span>❤️</span>
+        <strong>Conocer las causas</strong>
+        <small>Apoyos y necesidades actuales</small>
+      </a>
+
+      <a class="card" href="#contacto">
+        <span>📲</span>
+        <strong>Contactarnos</strong>
+        <small>Coordina tu ayuda con nosotros</small>
+      </a>
+    </div>
+  </section>
+
+  <section id="donar" class="info-section">
+    <h2>💛 Donaciones</h2>
+    <div class="payment">
+      <div>
+        <span class="label">NEQUI</span>
+        <strong>310 823 2867</strong>
+      </div>
+      <button onclick="copyText('3108232867')">Copiar número</button>
+    </div>
+    <p>Si realizas un aporte, escríbenos para poder identificarlo y darle seguimiento.</p>
+  </section>
+
+  <section id="voluntario" class="info-section">
+    <h2>🤝 ¿Quieres ser voluntario?</h2>
+    <p>
+      Puedes apoyarnos con tiempo, transporte, jornadas, difusión, organización
+      de ayudas, alimentación animal u otras actividades.
+    </p>
+    <a class="main-button" href="https://wa.me/573181962456?text=Hola%20Pacto%20de%20Amor%20Animal%2C%20quiero%20ser%20voluntario." target="_blank">
+      Quiero ser voluntario
+    </a>
+  </section>
+
+  <section id="causas" class="info-section">
+    <h2>🐾 Causas y necesidades</h2>
+    <p>
+      Las necesidades pueden incluir alimento, medicamentos, colchonetas,
+      areneros, jaulas o rejillas, transporte, trasteos y mano de obra.
+      Cada caso se coordina según sus necesidades reales.
+    </p>
+    <a class="main-button" href="https://wa.me/573181962456?text=Hola%20Pacto%20de%20Amor%20Animal%2C%20quiero%20conocer%20las%20causas%20que%20est%C3%A1n%20necesitando%20ayuda." target="_blank">
+      Ver necesidades
+    </a>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>📲 Contáctanos</h2>
+    <p>WhatsApp</p>
+    <a class="whatsapp" href="https://wa.me/573181962456" target="_blank">318 196 2456</a>
+
+    <div class="socials">
+      <a href="https://www.tiktok.com/@pactodeamoranimal" target="_blank">TikTok</a>
+      <a href="https://www.instagram.com/pactodeamoranimal" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/pactodeamoranimal" target="_blank">Facebook</a>
+    </div>
+  </section>
+
+  <footer>
+    <strong>Pacto de Amor Animal</strong>
+    <span>Proyecto de FUNSERCOL Colombia</span>
+    <span>❤️ Gracias por ayudar a ayudar</span>
+  </footer>
+
+</main>
+
+<script>
+function copyText(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    alert("Número copiado: " + text);
+  });
+}
+</script>
+
+</body>
+</html>
